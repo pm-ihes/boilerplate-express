@@ -1,5 +1,5 @@
 const app = require("./app");
-const config = require("./config");
+const config = require("lib/config");
 const { logger } = require("lib/utils");
 
 const port = config.server.port;
